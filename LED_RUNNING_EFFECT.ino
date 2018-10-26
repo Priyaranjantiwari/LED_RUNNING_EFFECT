@@ -2,7 +2,7 @@ int green1=4;
 int green2=5;
 int green3=6;
 int green4=7;
-
+int w=100;
 void setup()
 {
   pinMode(green1,OUTPUT);
@@ -13,28 +13,31 @@ void setup()
 
 void loop() 
 {
+
 digitalWrite(green1,HIGH);
+delay(w);
 digitalWrite(green1,LOW);
-delay(500);
+delay(w);
 digitalWrite(green2,HIGH);
+delay(w);
 digitalWrite(green2,LOW);
-delay(500);
+delay(w);
 digitalWrite(green3,HIGH);
+delay(w);
 digitalWrite(green3,LOW);
-delay(500);
+delay(w);
 digitalWrite(green4,HIGH);
+delay(w);
 digitalWrite(green4,LOW);
-delay(500);
-//digitalWrite(green4,HIGH);
-//digitalWrite(green4,LOW);
-//delay(500);
+delay(w);
+
 digitalWrite(green3,HIGH);
+delay(w);
 digitalWrite(green3,LOW);
-delay(500);
+delay(w);
 digitalWrite(green2,HIGH);
+delay(w);
 digitalWrite(green2,LOW);
-delay(500);
-//digitalWrite(green1,HIGH);
-//digitalWrite(green1,LOW);
-//delay(800);
+delay(w);
+
 }
